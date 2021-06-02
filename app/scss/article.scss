@@ -13,11 +13,13 @@
       grid-template-columns: 1fr;
       gap: 1.875rem;
   
-      @include breakpoint-up(medium){
+      @include breakpoint-up(medium){ //Breakpoint makes writing media queries in Sass super simple. 
+        //First, we reduced the media query down to the one value that really matters here, the mid-width value.
+        //Then we gave that media query a meaningful name. And once we start calling media queries by name we can start managing them systematically.
         grid-template-columns: repeat(2, 1fr);
       }
   
-      @include breakpoint-up(large){
+      @include breakpoint-up(large){ //Here we are reducing media query into large-width value.
         grid-template-columns: repeat(4, 1fr);
       }
     }
