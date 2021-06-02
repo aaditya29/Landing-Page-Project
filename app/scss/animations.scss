@@ -2,7 +2,9 @@
     visibility: hidden;
   }
 
-  @keyframes fade-in {
+  @keyframes fade-in { //Keyframes rules specifies the animation code
+    //Syntax can be revised from w3schools
+    
     from {
       visibility: hidden;
       opacity: 0;
