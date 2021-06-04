@@ -7,7 +7,4 @@ Building a responsive HTML website from scratch.
 2. SCSS
 3. Javascript
 
-#### Editor Used
-VS Code
-
 <b>Please note this project is used for the personal learning/practice only.</b>
