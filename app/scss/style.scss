@@ -1,4 +1,13 @@
 //Main scss file where we will import our all partial scss file
+//That is we import variable from this file
 @import "variables";
 @import "globals";
 @import "header";
+
+@import "mixins";
+@import "animations";
+
+@import "hero";
+@import "feature";
+@import "article";
+@import "footer";
