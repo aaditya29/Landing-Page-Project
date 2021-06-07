@@ -74,4 +74,15 @@
             animation: fade-out 200ms ease-in-out forwards;
   }
 
+  html {
+    font-size: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+
   
