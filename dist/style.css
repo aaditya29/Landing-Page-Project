@@ -32,3 +32,8 @@
       opacity: 1;
     }
   }
+
+.fade-in {
+    -webkit-animation: fade-in 200ms ease-in-out forwards;
+            animation: fade-in 200ms ease-in-out forwards;
+  }
