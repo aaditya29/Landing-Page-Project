@@ -108,4 +108,11 @@
     overflow: hidden;
   }
 
+  h1, h2, h3 {
+    font-weight: 300;
+    line-height: 1.15;
+    color: #2d314d;
+    margin-top: 0px;
+  }
+  
   
