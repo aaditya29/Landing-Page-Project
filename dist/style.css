@@ -174,3 +174,9 @@
   .container--pt {
     padding-top: 4.375rem;
   }
+
+  @media (min-width: 64em) {
+    .container--pt {
+      padding-top: 6rem;
+    }
+  }
