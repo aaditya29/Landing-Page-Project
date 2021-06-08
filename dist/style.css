@@ -138,4 +138,16 @@
     }
   }
 
+  p {
+    line-height: 1.5;
+    margin-bottom: 2.25rem;
+  }
   
+  a, a:visited, a:hover {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 69.375rem;
+    margin: 0 auto;
+  }  
