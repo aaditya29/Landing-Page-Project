@@ -268,3 +268,15 @@
   button:hover::before, .button:hover::before {
     opacity: 1;
   }
+
+  @media (max-width: 63.9375em) {
+    .hide-for-mobile {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .hide-for-desktop {
+      display: none;
+    }
+  }
