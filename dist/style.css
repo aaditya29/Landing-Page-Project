@@ -201,4 +201,10 @@
     padding-bottom: 4.375rem;
   }
 
+  @media (min-width: 64em) {
+    .container--pb {
+      padding-bottom: 6rem;
+    }
+  }
+
   
