@@ -406,4 +406,13 @@
               align-items: center;
     }
   }
+
+  .hero__image {
+    position: relative;
+    background-image: url("/Users/apple/Documents/Home Page Project/images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 17.5rem;
+  }
   
