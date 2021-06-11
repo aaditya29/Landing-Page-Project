@@ -409,7 +409,7 @@
 
   .hero__image {
     position: relative;
-    background-image: url("/Users/apple/Documents/Home Page Project/images/bg-intro-mobile.svg");
+    background-image: url("/Users/apple/Documents/Home Page Project/images/bg-intro-mobile.svg");/*Local Directory Where Image Is Located. Change it according to your local directory when fork*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
