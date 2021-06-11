@@ -476,5 +476,7 @@
       left: 22%;
     }
   }
-  
-  
+
+  .hero__text {
+    text-align: center;
+  }
