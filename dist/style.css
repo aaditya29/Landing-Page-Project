@@ -415,4 +415,11 @@
     background-position: center center;
     min-height: 17.5rem;
   }
+
+  @media (min-width: 40em) {
+    .hero__image {
+      min-height: 25rem;
+      background-position: center 70%;
+    }
+  }
   
