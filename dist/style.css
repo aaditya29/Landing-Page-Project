@@ -459,8 +459,22 @@
     background-size: 93%;
     background-repeat: no-repeat;
     background-position: center bottom;
+  }
+
+  @media (min-width: 40em) {
+    .hero__image::after {
+      background-size: 52%;
+    }
+  }
   
-  
+  @media (min-width: 64em) {
+    .hero__image::after {
+      width: 120%;
+      height: 122%;
+      background-size: 94%;
+      background-position: center 150%;
+      left: 22%;
+    }
   }
   
   
