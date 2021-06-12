@@ -503,3 +503,13 @@
       text-align: left;
     }
   }
+
+  .feature__intro {
+    margin-bottom: 3.75rem;
+  }
+
+  @media (min-width: 64em) {
+    .feature__intro {
+      width: 60%;
+    }
+  }
