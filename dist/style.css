@@ -455,7 +455,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("/Users/apple/Documents/Home Page Project/images/image-mockups.png");
+    background-image: url("/Users/apple/Documents/Home Page Project/images/image-mockups.png");/*Local Directory Where Image Is Located. Change it according to your local computer directory when fork*/
     background-size: 93%;
     background-repeat: no-repeat;
     background-position: center bottom;
