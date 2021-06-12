@@ -593,3 +593,10 @@
     }
   }
   
+  @media (min-width: 64em) {
+    .article__grid {
+      -ms-grid-columns: (1fr)[4];
+          grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
