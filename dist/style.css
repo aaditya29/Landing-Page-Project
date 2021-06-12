@@ -543,4 +543,14 @@
               flex: 1;
     }
   }
+
+  .feature__icon {
+    margin-bottom: 1.875rem;
+  }
+
+  @media (min-width: 64em) {
+    .feature__icon {
+      margin-bottom: 2.75rem;
+    }
+  }
   
