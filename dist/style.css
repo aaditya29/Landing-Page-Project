@@ -523,3 +523,7 @@
           flex-wrap: wrap;
     }
   }
+
+  .feature__item {
+    padding: 0.9375rem;
+  }
