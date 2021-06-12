@@ -568,3 +568,8 @@
       margin-bottom: 1.5rem;
     }
   }
+  
+  .feature__description {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
