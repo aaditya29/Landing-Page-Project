@@ -648,3 +648,10 @@
   .article__description {
     font-size: 0.8125rem;
   }
+
+  .footer {
+    background-color: #2d314d;
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+  }
