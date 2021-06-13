@@ -669,3 +669,11 @@
       justify-items: start;
     }
   }
+
+  .footer a {
+    color: white;
+  }
+  
+  .footer__logo {
+    display: inline-block;
+  }
