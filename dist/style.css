@@ -655,3 +655,17 @@
     padding: 2.5rem;
     text-align: center;
   }
+
+  @media (min-width: 64em) {
+    .footer .container {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 2fr 1fr 1fr 3fr;
+          grid-template-columns: 2fr 1fr 1fr 3fr;
+      -ms-grid-rows: 1fr auto;
+          grid-template-rows: 1fr auto;
+          grid-template-areas: "logo links1 links2 cta" "social links1 links2 copyright";
+      gap: 1rem;
+      justify-items: start;
+    }
+  }
