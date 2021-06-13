@@ -689,3 +689,18 @@
       grid-area: logo;
     }
   }
+
+  @media (max-width: 63.9375em) {
+    .footer__social {
+      margin-bottom: 1.875rem;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .footer__social {
+      grid-area: social;
+      -ms-flex-item-align: end;
+          -ms-grid-row-align: end;
+          align-self: end;
+    }
+  }
