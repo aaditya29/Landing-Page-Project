@@ -20,7 +20,7 @@ btnHamburger.addEventListener('click', function(){
     body.classList.add('noscroll');
     header.classList.add('open');
     fadeElems.forEach(function(element){
-      element.classList.remove('fade-out');
+      element.classList.remove('fade-out');//Way the menu will be closed
       element.classList.add('fade-in');
     });
 
