@@ -704,3 +704,8 @@
           align-self: end;
     }
   }
+
+  .footer__social a {
+    display: inline-block;
+    height: 1.25rem;
+  }
