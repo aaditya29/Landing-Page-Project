@@ -736,3 +736,14 @@
             align-items: center;
     font-size: 0.9375rem;
   }
+
+  @media (min-width: 64em) {
+    .footer__links {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: start;
+    }
+  }
