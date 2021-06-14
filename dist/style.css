@@ -796,3 +796,13 @@
     color: #9698a6;
   }
   
+  @media (min-width: 64em) {
+    .footer__copyright {
+      grid-area: copyright;
+      -ms-flex-item-align: end;
+          -ms-grid-row-align: end;
+          align-self: end;
+      -ms-grid-column-align: end;
+          justify-self: end;
+    }
+  }
