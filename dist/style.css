@@ -790,3 +790,9 @@
       margin-bottom: 1.875rem;
     }
   }
+
+  .footer__copyright {
+    font-size: 0.8125rem;
+    color: #9698a6;
+  }
+  
